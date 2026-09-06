@@ -2,7 +2,35 @@
 
 Terms I kept having to explain — to my team, in interviews, in conversations where someone used one of these words to mean three different things. Plain definitions, plus why each one actually matters in practice, not just what it stands for.
 
+If you're new to testing or Playwright, start with the Foundations section below. If you're already comfortable with test automation, skip straight to the AI-specific terms.
+
 ---
+
+## Foundations
+
+### Playwright
+
+A browser automation framework (built by Microsoft) used to write and run automated tests that interact with real web pages — clicking buttons, filling forms, checking what appears on screen.
+
+### Locator / Selector
+
+The way a test identifies a specific element on a page — like "the button labeled Submit" or "the input with id=email" — so it knows what to click or type into.
+
+### Flaky test
+
+A test that sometimes passes and sometimes fails with no code change in between, usually caused by timing issues or a locator that's become unreliable. This is the everyday pain that makes self-healing locators (below) actually matter.
+
+### LLM (Large Language Model)
+
+The underlying AI model — like Claude or GPT — that powers all the "agents" discussed below. Worth naming plainly, since "agent" doesn't mean much without knowing what's actually doing the reasoning underneath it.
+
+### CI/CD (Continuous Integration / Continuous Deployment)
+
+The automated pipeline that runs your tests every time code changes, before it ships. Most of the AI tooling below — healers, coverage-gap agents — exists specifically to keep this pipeline reliable.
+
+---
+
+## AI + Playwright Terms
 
 ### MCP (Model Context Protocol)
 
@@ -31,9 +59,9 @@ A selector that an AI agent can automatically repair when the underlying element
 ### Test Agents (planner / generator / healer)
 
 Playwright's built-in AI agents, invoked via `npx playwright init-agents`. Three distinct roles:
-- **Planner** — scopes what a test should cover, given a feature or requirement.
-- **Generator** — writes the actual Playwright test code.
-- **Healer** — detects and repairs broken tests when the UI changes.
+- **Planner** — explores your running app and writes a Markdown test plan.
+- **Generator** — converts that plan into real, runnable Playwright test files.
+- **Healer** — runs the tests and repairs failures when they're selector-related.
 
 **Why it matters:** most people think "AI + Playwright" means one thing — code generation. It's actually a three-stage lifecycle, and knowing which agent you need for which problem saves a lot of wasted prompting.
 
