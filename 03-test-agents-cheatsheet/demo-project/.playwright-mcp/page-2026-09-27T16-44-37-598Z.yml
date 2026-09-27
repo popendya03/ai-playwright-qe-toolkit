@@ -1,0 +1,218 @@
+- generic [active] [ref=f36e1]:
+  - paragraph [ref=f36e3]:
+    - link "PMP Practice" [ref=f36e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software testing courses" [ref=f36e5] [cursor=pointer]
+  - banner [ref=f36e10]:
+    - navigation "Main navigation" [ref=f36e11]:
+      - link "SUT" [ref=f36e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=f36e13]'
+        - text: Practice
+      - generic [ref=f36e14]:
+        - list [ref=f36e15]:
+          - listitem [ref=f36e16]:
+            - button "Demos" [ref=f36e17] [cursor=pointer]
+          - listitem [ref=f36e18]:
+            - link "Tools" [ref=f36e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=f36e20]:
+            - link "Tips" [ref=f36e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=f36e22]:
+            - link "Test Cases" [ref=f36e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=f36e24]:
+            - link "API Testing" [ref=f36e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=f36e26]:
+            - link "About" [ref=f36e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=f36e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=f36e29]:
+    - insertion [ref=f36e33]:
+      - generic [ref=f36e36]:
+        - heading "These are topics related to the article that might interest you" [level=2] [ref=f36e38]: Discover more
+        - link "Software Utilities" [ref=f36e39] [cursor=pointer]
+        - link "Automation testing consulting" [ref=f36e44] [cursor=pointer]
+        - link "Selenium testing guide" [ref=f36e49] [cursor=pointer]
+    - alert [ref=f36e57]:
+      - text: You logged out of the secure area!
+      - button "Close" [ref=f36e58] [cursor=pointer]
+    - paragraph [ref=f36e60]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=f36e61] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=f36e62]:
+      - generic:
+        - insertion:
+          - iframe [ref=f36e64]
+      - generic [ref=f36e66]:
+        - generic [ref=f36e67]:
+          - navigation "breadcrumb mb-2" [ref=f36e68]:
+            - list [ref=f36e69]:
+              - listitem [ref=f36e70]:
+                - link "Home" [ref=f36e71] [cursor=pointer]:
+                  - /url: /
+              - listitem [ref=f36e72]: / Login Page
+          - heading "Test Login page for Automation Testing Practice" [level=1] [ref=f36e73]
+          - generic [ref=f36e75]:
+            - paragraph [ref=f36e76]: This Test Login page is designed for automation testing practice. Test various positive and negative login scenarios in a testing environment.
+            - generic:
+              - insertion:
+                - iframe [ref=f36e78]
+            - paragraph [ref=f36e79]:
+              - text: You can use this login page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+              - link "Login page templates" [ref=f36e80] [cursor=pointer]
+            - paragraph [ref=f36e84]:
+              - text: Register
+              - link "here" [ref=f36e85] [cursor=pointer]:
+                - /url: /register
+              - text: "or Log in to the secure area with these credentials:"
+            - list [ref=f36e86]:
+              - listitem [ref=f36e87]: "Username: practice"
+              - listitem [ref=f36e88]: "Password: SuperSecretPassword!"
+            - paragraph
+          - generic [ref=f36e93]:
+            - generic [ref=f36e94]:
+              - generic [ref=f36e95]:
+                - generic [ref=f36e96]: Username
+                - textbox "Username" [ref=f36e97]
+              - generic [ref=f36e98]:
+                - generic [ref=f36e99]: Password
+                - textbox "Password" [ref=f36e100]
+            - button "Login" [ref=f36e101] [cursor=pointer]
+          - generic [ref=f36e102]:
+            - heading "How to test the login page?" [level=2] [ref=f36e103]
+            - generic [ref=f36e104]:
+              - paragraph [ref=f36e105]:
+                - text: If the credentials are correct, you should see a welcome message; otherwise, you will see an error message.
+                - link "Development Tools" [ref=f36e106] [cursor=pointer]
+              - insertion [ref=f36e111]:
+                - generic [ref=f36e114]:
+                  - heading "These are topics related to the article that might interest you" [level=2] [ref=f36e116]: Discover more
+                  - link "Networking" [ref=f36e117] [cursor=pointer]
+                  - link "Automation testing platform" [ref=f36e122] [cursor=pointer]
+                  - link "Authentication security guide" [ref=f36e127] [cursor=pointer]
+              - paragraph [ref=f36e132]: The login feature is essential for secure websites and is commonly used. Automating the testing of various login scenarios, including different edge cases, is crucial to ensure reliability and security.
+              - heading "How Does Form-Based Authentication Work?" [level=3] [ref=f36e133]
+              - paragraph [ref=f36e134]: "Take a look at this diagram and review the different steps:"
+              - img "How Does Form-Based Authentication Work" [ref=f36e135]
+              - list [ref=f36e136]:
+                - listitem [ref=f36e137]: "Step 1: A client requests access to a protected resource"
+                - listitem [ref=f36e138]: "Step 2: If the client is unauthenticated, the server redirects the client to a login page"
+                - listitem [ref=f36e139]: "Step 3: The client submits the login form to the server"
+                - listitem [ref=f36e140]: "Step 4: If the login succeeds, the server redirects the client to the resource. If the login fails, the client is redirected to an error page"
+        - generic [ref=f36e142]:
+          - heading "Login Automation Test Cases" [level=2] [ref=f36e143]
+          - insertion [ref=f36e145]:
+            - generic [ref=f36e148]:
+              - heading "These are topics related to the article that might interest you" [level=2] [ref=f36e150]: Discover more
+              - link "Dictionaries & Encyclopedias" [ref=f36e151] [cursor=pointer]
+              - link "Software testing mock" [ref=f36e156] [cursor=pointer]
+              - link "Technical Reference" [ref=f36e161] [cursor=pointer]
+          - paragraph [ref=f36e166]: Below are the test cases for the login page. These test cases cover both positive and negative scenarios to ensure comprehensive testing of the login functionality.
+          - paragraph [ref=f36e167]:
+            - text: To perform these tests, please navigate to this
+            - link "page" [ref=f36e168] [cursor=pointer]:
+              - /url: /login
+            - link "Computer Security" [ref=f36e169] [cursor=pointer]
+          - heading "Login Automation Test Cases" [level=2] [ref=f36e173]
+          - 'heading "Test Case 1: Successful Login" [level=3] [ref=f36e174]'
+          - list [ref=f36e175]:
+            - listitem [ref=f36e176]: Launch the browser.
+            - listitem [ref=f36e177]:
+              - text: Navigate to the
+              - link "login" [ref=f36e178] [cursor=pointer]:
+                - /url: /login
+              - text: page URL.
+            - listitem [ref=f36e179]: Verify that the login page is displayed successfully.
+            - listitem [ref=f36e180]:
+              - text: Enter
+              - strong [ref=f36e181]: Username
+              - text: ":"
+              - code [ref=f36e182]: practice
+              - text: .
+            - listitem [ref=f36e183]:
+              - text: Enter
+              - strong [ref=f36e184]: Password
+              - text: ":"
+              - code [ref=f36e185]: SuperSecretPassword!
+              - text: .
+            - listitem [ref=f36e186]:
+              - text: Click the
+              - strong [ref=f36e187]: Login
+              - text: button.
+            - listitem [ref=f36e188]:
+              - text: Verify that the user is redirected to the
+              - code [ref=f36e189]: /secure
+              - text: page.
+            - listitem [ref=f36e190]: Confirm the success message "You logged into a secure area!" is visible.
+            - listitem [ref=f36e191]:
+              - text: Verify that a
+              - strong [ref=f36e192]: Logout
+              - text: button is displayed.
+          - separator [ref=f36e193]
+          - 'heading "Test Case 2: Invalid Username" [level=3] [ref=f36e194]'
+          - list [ref=f36e195]:
+            - listitem [ref=f36e196]: Launch the browser.
+            - listitem [ref=f36e197]: Navigate to the login page URL.
+            - listitem [ref=f36e198]: Verify that the login page is displayed successfully.
+            - listitem [ref=f36e199]:
+              - text: Enter an incorrect
+              - strong [ref=f36e200]: Username
+              - text: (e.g.,
+              - code [ref=f36e201]: wrongUser
+              - text: ).
+            - listitem [ref=f36e202]:
+              - text: Enter
+              - strong [ref=f36e203]: Password
+              - text: ":"
+              - code [ref=f36e204]: SuperSecretPassword!
+              - text: .
+            - listitem [ref=f36e205]:
+              - text: Click the
+              - strong [ref=f36e206]: Login
+              - text: button.
+            - listitem [ref=f36e207]: Verify that an error message "Invalid username." is displayed.
+            - listitem [ref=f36e208]: Ensure the user remains on the login page.
+          - separator [ref=f36e209]
+          - 'heading "Test Case 3: Invalid Password" [level=3] [ref=f36e210]'
+          - list [ref=f36e211]:
+            - listitem [ref=f36e212]: Launch the browser.
+            - listitem [ref=f36e213]: Navigate to the login page URL.
+            - listitem [ref=f36e214]: Verify that the login page is displayed successfully.
+            - listitem [ref=f36e215]:
+              - text: Enter
+              - strong [ref=f36e216]: Username
+              - text: ":"
+              - code [ref=f36e217]: practice
+              - text: .
+            - listitem [ref=f36e218]:
+              - text: Enter an incorrect
+              - strong [ref=f36e219]: Password
+              - text: (e.g.,
+              - code [ref=f36e220]: WrongPassword
+              - text: ).
+            - listitem [ref=f36e221]:
+              - text: Click the
+              - strong [ref=f36e222]: Login
+              - text: button.
+            - listitem [ref=f36e223]: Verify that an error message "Invalid password." is displayed.
+            - listitem [ref=f36e224]: Ensure the user remains on the login page.
+    - generic:
+      - insertion:
+        - iframe [ref=f36e226]
+  - insertion [ref=f36e228]
+  - contentinfo [ref=f36e230]:
+    - generic [ref=f36e235]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=f36e236]
+      - paragraph [ref=f36e237]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=f36e238] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - generic [ref=f36e239] [cursor=pointer]

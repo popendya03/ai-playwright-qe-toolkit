@@ -1,0 +1,72 @@
+- generic [active] [ref=f48e1]:
+  - paragraph [ref=f48e3]:
+    - link "PMP Practice" [ref=f48e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software Testing Resources" [ref=f48e5] [cursor=pointer]
+  - banner [ref=f48e10]:
+    - navigation "Main navigation" [ref=f48e11]:
+      - link "SUT" [ref=f48e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=f48e13]'
+        - text: Practice
+      - generic [ref=f48e14]:
+        - list [ref=f48e15]:
+          - listitem [ref=f48e16]:
+            - button "Demos" [ref=f48e17] [cursor=pointer]
+          - listitem [ref=f48e18]:
+            - link "Tools" [ref=f48e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=f48e20]:
+            - link "Tips" [ref=f48e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=f48e22]:
+            - link "Test Cases" [ref=f48e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=f48e24]:
+            - link "API Testing" [ref=f48e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=f48e26]:
+            - link "About" [ref=f48e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=f48e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=f48e29]:
+    - insertion [ref=f48e33]:
+      - generic [ref=f48e36]:
+        - heading "These are topics related to the article that might interest you" [level=2] [ref=f48e38]: Discover more
+        - link "Download Tech Manuals" [ref=f48e39] [cursor=pointer]
+        - link "Software quality assurance" [ref=f48e44] [cursor=pointer]
+        - link "Upgrade Industrial Robotics" [ref=f48e49] [cursor=pointer]
+    - alert [ref=f48e57]:
+      - text: You're logged in. Please log out before logging in as a different user
+      - button "Close" [ref=f48e58] [cursor=pointer]
+    - paragraph [ref=f48e60]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=f48e61] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=f48e65]:
+      - navigation "breadcrumb mb-2" [ref=f48e66]:
+        - list [ref=f48e67]:
+          - listitem [ref=f48e68]:
+            - link "Home" [ref=f48e69] [cursor=pointer]:
+              - /url: /
+          - listitem [ref=f48e70]: / Secure Area
+      - heading "Secure Area page for Automation Testing Practice" [level=1] [ref=f48e71]
+      - heading "Hi, practice!" [level=3] [ref=f48e72]
+      - heading "Welcome to the Secure Area. When you are done click logout below." [level=4] [ref=f48e73]
+      - link "Logout" [ref=f48e74] [cursor=pointer]:
+        - /url: /logout
+  - generic [ref=f48e75]:
+    - insertion:
+      - iframe [ref=f48e77]
+  - contentinfo [ref=f48e78]:
+    - generic [ref=f48e83]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=f48e84]
+      - paragraph [ref=f48e85]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=f48e86] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - generic [ref=f48e87] [cursor=pointer]
