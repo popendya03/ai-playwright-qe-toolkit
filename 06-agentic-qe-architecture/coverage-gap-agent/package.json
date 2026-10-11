@@ -1,0 +1,16 @@
+{
+  "name": "coverage-gap-agent",
+  "version": "0.2.0",
+  "description": "Reads a PR diff and an existing Playwright test suite, flags what's likely untested. Runs on OpenRouter's free tier.",
+  "type": "module",
+  "scripts": {
+    "demo": "tsx src/run.ts --diff sample-diff/pr-forgot-password.diff --tests tests/auth.spec.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "@types/node": "^22.0.0",
+    "http-server": "^14.1.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
