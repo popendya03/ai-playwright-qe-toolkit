@@ -86,6 +86,17 @@
     }
     button:hover { background: var(--indigo-dark); }
 
+        .link {
+      display: block;
+      margin-top: 16px;
+      text-align: center;
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--indigo);
+      text-decoration: none;
+    }
+    .link:hover { text-decoration: underline; }
+
     /* Success / error messages */
     .message { margin-top: 18px; padding: 12px 14px; border-radius: 10px; font-size: 14px; }
     .message[hidden] { display: none; }
@@ -122,6 +133,7 @@
         <input id="password" type="password" data-testid="login-password" placeholder="Enter your password" />
 
         <button type="submit" data-testid="login-submit">Log in</button>
+         <a class="link" href="forgot-password.html" data-testid="forgot-password-link">Forgot your password?</a>
       </form>
 
       <p id="error" class="message error" role="alert" data-testid="login-error" hidden>Invalid credentials</p>
