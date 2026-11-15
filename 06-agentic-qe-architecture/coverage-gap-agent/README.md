@@ -167,7 +167,7 @@ Treat it as a list for a person to review, not as the truth.
 
 The sample diff comes from a pull request I made on purpose: a **Forgot Password** flow added to a small login app, with no tests. The tool should notice.
 
-You can look at it yourself: [pull request #4](../../pulls) in this repository. It's left open on purpose. **Please don't merge it.**
+You can look at it yourself: [pull request #4](https://github.com/popendya03/ai-playwright-qe-toolkit/pull/4) in this repository. It's left open on purpose. **Please don't merge it.**
 
 ### What I did, in order
 
